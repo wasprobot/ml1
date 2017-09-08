@@ -1,13 +1,13 @@
-Group					Testing group the member is/was put in (0:Intervention, 1:Control, 2:Alternate)
+Group					Testing group the member is/was put in (0:Intervention: Got a med-rec, 1:Control: Did not, 2:Alternate: Should have but didn't)
 MBR_First_name			Member's first name
 MBR_Last_name			Member's last name
 humana_id_				Member's humana id
-Referral_Date			
-Enrolled_Date			
+Referral_Date
+Enrolled_Date
 First_in_home_visit		1st in-home visit after discharge
-IHV_week				
-Med_rec_visit_date		
-CM						Doctor?
+IHV_week
+Med_rec_visit_date
+CM						Care Manager
 EXCL_Commercial			0:Non-Commercial
                         1:Commercial
 referral_source         0:_Blank_
@@ -24,25 +24,25 @@ admit_type				0:_Blank_
                         5:Rehab
                         6:2_OP
                         7:Maternity
-score					
-EXCL_No_Match           
-EXCL_Denied             
-EXCL_Badtype            
-EXCL_SNP                
-EXCL_Risk               
-EXCL_Delegated          
-EXCL_Not_DTH            
-EXCL_No_Claim           
-EXCLUDE_FLAG            
-INCLUDE_FLAG            
-Referral                
-Read_start              
+score
+EXCL_No_Match
+EXCL_Denied
+EXCL_Badtype
+EXCL_SNP
+EXCL_Risk
+EXCL_Delegated
+EXCL_Not_DTH
+EXCL_No_Claim
+EXCLUDE_FLAG
+INCLUDE_FLAG
+Referral
+Read_start
 Read_denom              0:_Blank_
                         1:???
 Readmit                 0:_Blank_
                         1:No
                         2:Yes
-DTIHV                   -99:_Blank_
+DTIHV                   -99:_Blank_ (Days to in-home visit)
 RPM_Band                0:100-159
                         1:160-179
                         2:180-199
@@ -115,7 +115,7 @@ RES_COPD                0:_Blank_
 MTM_Eligible            0:No
                         1:Yes
 Readmit_MCC             (See: MCC_FULL_DESC)
-CURRENT_ZIP_CD          
-Next_ER_Visit           
-Next_PCP_Visit          
-Next_Specialist_Visit   
+CURRENT_ZIP_CD
+Next_ER_Visit
+Next_PCP_Visit
+Next_Specialist_Visit
